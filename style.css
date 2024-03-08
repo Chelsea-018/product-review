@@ -1,0 +1,71 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-size: 12px;
+    font-family: "montserrat", sans-serif;
+    font-weight: 500;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+img{
+    width: 248px;
+    height: 368px;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.box1{
+    background-color: white;
+    width: 208px;
+    height: 328px;
+    display: flex;
+    align-items: center;
+    display: inline-block;
+    justify-content: center;
+    padding: 20px;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+button{
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    font-family: "montserrat", sans-serif;
+    font-size: 11px;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    border-width: 1px;
+    gap: 0.5rem;
+}
+.first{
+    line-height: 1;
+    font-family: "Fraunces", sans-serif; 
+    font-weight: 700;
+    font-size: 25px;
+}
+.second{
+    font-family:"Fraunces", sans-serif; 
+    font-weight: 700;
+    font-size: 25px;
+    color: hsl(158, 36%, 37%);
+    
+}
+.footer{
+    width: 150px;
+    height: 60px;
+    display: flex;
+    gap: 1rem;
+    text-align: justify;
+}
+.bold{
+    width: 180px;
+    height: 95px;
+}
+.money{
+    text-decoration: line-through;
+}
